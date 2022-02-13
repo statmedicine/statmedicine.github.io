@@ -1,7 +1,7 @@
 html {
-    /* The nav header is 3.40625rem high, plus 20px for the margin-top of the
-       main container. */
-    scroll-padding-top: calc(3.40625rem + 20px);
+    /* The nav header is 4.01875rem + 2px high, plus 20px for the margin-top of
+       the main container. */
+    scroll-padding-top: calc(4.01875rem + 2px + 20px);
 }
 
 body > .container {
@@ -22,9 +22,10 @@ body > .container {
 }
 
 pre, code {
-    background: #eee;
-    color: #000;
-    border: 1px solid rgba(0,0,0,0.125);
+    background: #fff;
+    color: #68615e;
+    border: 1px solid #eeeeee;
+    border-radius: 0.25rem;
 }
 
 pre {
@@ -43,11 +44,11 @@ pre code {
 }
 
 a code {
-    color: #008cba;
+    color: #d9230f;
 }
 
 a:hover code {
-    color: #00526e;
+    color: #91170a;
 }
 
 kbd {
@@ -68,21 +69,23 @@ footer {
 }
 
 .modal-dialog {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 /* Style the admonitions. */
 
 .admonition {
     margin-bottom: 1rem;
-    border: 1px solid rgba(0,0,0,0.125);
+    border: 1px solid #eeeeee;
+    border-radius: 0.25rem;
 }
 
 .admonition > .admonition-title {
     margin: 0;
     padding: 0.75rem 1rem;
     background: rgba(0,0,0,0.03);
-    border-bottom: 1px solid rgba(0,0,0,0.125);
+    border-bottom: 1px solid #eeeeee;
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
     font-size: 1rem;
 }
 
@@ -103,29 +106,29 @@ footer {
 /* Style each kind of admonition. */
 
 .admonition.note, .admonition.note > .admonition-title {
-    border-color: #3db5d8;
+    border-color: #029acf;
 }
 
 .admonition.note > .admonition-title {
-    background: #5bc0de;
+    background: #029acf;
     color: #fff;
 }
 
 .admonition.warning, .admonition.warning > .admonition-title {
-    border-color: #d08002;
+    border-color: #9b479f;
 }
 
 .admonition.warning > .admonition-title {
-    background: #e99002;
+    background: #9b479f;
     color: #fff;
 }
 
 .admonition.danger, .admonition.danger > .admonition-title {
-    border-color: #ea2f10;
+    border-color: #d9831f;
 }
 
 .admonition.danger > .admonition-title {
-    background: #f04124;
+    background: #d9831f;
     color: #fff;
 }
 
@@ -139,9 +142,9 @@ footer {
 .bs-sidebar.affix {
     position: -webkit-sticky;
     position: sticky;
-    /* The nav header is 3.40625rem high, plus 20px for the margin-top of the
-       main container. */
-    top: calc(3.40625rem + 20px);
+    /* The nav header is 4.01875rem + 2px high, plus 20px for the margin-top of
+       the main container. */
+    top: calc(4.01875rem + 2px + 20px);
 }
 
 .bs-sidebar.card {
@@ -216,23 +219,13 @@ h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .head
 @media (max-width: 991.98px) {
     .navbar-collapse.show {
         overflow-y: auto;
-        max-height: calc(100vh - 3.40625rem);
+        max-height: calc(100vh - 4.01875rem - 2px);
     }
 }
 
-.bg-primary .dropdown-item.open {
+.dropdown-item.open {
     color: #fff;
-    background-color: #0079a1;
-}
-
-.bg-light .dropdown-item.open {
-    color: rgba(0,0,0,0.7);
-    background-color: #fbfbfb;
-}
-
-.bg-dark .dropdown-item.open {
-    color: #fff;
-    background-color: #262626;
+    background-color: #D9230F;
 }
 
 .dropdown-submenu > .dropdown-menu {
@@ -255,18 +248,14 @@ h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .head
     margin-right: -10px;
 }
 
-dropdown-submenu:hover > a::after {
-    border-left-color: #fff;
-}
-
-.bg-light dropdown-submenu:hover > a::after {
-    border-left-color: rgba(0,0,0,0.7);
+.dropdown-submenu:hover > a::after {
+    border-left-color: #404040;
 }
 
 @media (min-width: 992px) {
     .dropdown-menu {
         overflow-y: auto;
-        max-height: calc(100vh - 3.40625rem);
+        max-height: calc(100vh - 4.01875rem - 2px);
     }
 
     .dropdown-submenu {
