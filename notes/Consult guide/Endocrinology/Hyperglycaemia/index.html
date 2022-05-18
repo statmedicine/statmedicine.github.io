@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Hyperglycaemia - STAT notes</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/atelier-forest-light.min.css">
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">STAT notes</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Emergencies <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Emergencies/Anaphylaxis/" class="dropdown-item">Anaphylaxis</a>
+</li>
+                                    
+<li>
+    <a href="../../../Emergencies/Cardiac%20Arrest/" class="dropdown-item">Cardiac Arrest</a>
+</li>
+                                    
+<li>
+    <a href="../../../Emergencies/Unresponsive%20patient/" class="dropdown-item">Unresponsive patient</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Consult guide <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Consults%20guide/" class="dropdown-item">Consults guide</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Cardiology</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Cardiology/Bradycardia/" class="dropdown-item">Bradycardia</a>
+</li>
+            
+<li>
+    <a href="../../Cardiology/Chest%20pain/" class="dropdown-item">Chest pain</a>
+</li>
+            
+<li>
+    <a href="../../Cardiology/Hypertension/" class="dropdown-item">Hypertension</a>
+</li>
+            
+<li>
+    <a href="../../Cardiology/Hypotension/" class="dropdown-item">Hypotension</a>
+</li>
+            
+<li>
+    <a href="../../Cardiology/Leg%20pain/" class="dropdown-item">Leg pain</a>
+</li>
+            
+<li>
+    <a href="../../Cardiology/Pre-eclampsia/" class="dropdown-item">Pre eclampsia</a>
+</li>
+            
+<li>
+    <a href="../../Cardiology/Syncope/" class="dropdown-item">Syncope</a>
+</li>
+            
+<li>
+    <a href="../../Cardiology/Tachycardia/" class="dropdown-item">Tachycardia</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Endocrinology</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../Diabetes%20consult/" class="dropdown-item">Diabetes consult</a>
+</li>
+            
+<li>
+    <a href="../Diabetes%20management%20cases/" class="dropdown-item">Diabetes case studies</a>
+</li>
+            
+<li>
+    <a href="../Diabetic%20ketoacidosis/" class="dropdown-item">Diabetic ketoacidosis (DKA)</a>
+</li>
+            
+<li>
+    <a href="../Endocrinology%20consults/" class="dropdown-item">Endocrinology consults</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active">Hyperglycaemia</a>
+</li>
+            
+<li>
+    <a href="../Hyperglycaemic%20Hyperosmolar%20state/" class="dropdown-item">Hyperglycaemic Hyperosmolar state</a>
+</li>
+            
+<li>
+    <a href="../Hyperthyroidism/" class="dropdown-item">Hyperthyroidism</a>
+</li>
+            
+<li>
+    <a href="../Hypoglycaemia/" class="dropdown-item">Hypoglycaemia</a>
+</li>
+            
+<li>
+    <a href="../Hypothyroidism/" class="dropdown-item">Hypothyroidism</a>
+</li>
+            
+<li>
+    <a href="../Insulin%20infusion/" class="dropdown-item">Insulin infusion</a>
+</li>
+            
+<li>
+    <a href="../Insulin/" class="dropdown-item">Insulin</a>
+</li>
+            
+<li>
+    <a href="../Sliding%20scale%20insulin/" class="dropdown-item">Sliding scale insulin</a>
+</li>
+            
+<li>
+    <a href="../Thyroid%20storm/" class="dropdown-item">Thyroid storm (Thyrotoxic crisis)</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Gastroenterology</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Gastroenterology/Abdominal%20pain/" class="dropdown-item">Abdominal pain</a>
+</li>
+            
+<li>
+    <a href="../../Gastroenterology/Altered%20bowel%20habit/" class="dropdown-item">Altered bowel habit</a>
+</li>
+            
+<li>
+    <a href="../../Gastroenterology/GI%20Bleed/" class="dropdown-item">GI Bleed</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">General Medicine</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../General%20Medicine/Pyrexia/" class="dropdown-item">Pyrexia</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Geriatrics</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Geriatrics/Behavioural%20management/" class="dropdown-item">Behavioural management</a>
+</li>
+            
+<li>
+    <a href="../../Geriatrics/Cognitive%20Assessments%20%28MMSE%29/" class="dropdown-item">Cognitive Assessments (MMSE)</a>
+</li>
+            
+<li>
+    <a href="../../Geriatrics/Delirium/" class="dropdown-item">Delirium</a>
+</li>
+            
+<li>
+    <a href="../../Geriatrics/Falls/" class="dropdown-item">Falls</a>
+</li>
+            
+<li>
+    <a href="../../Geriatrics/Geriatric%20admissions/" class="dropdown-item">Geriatric admissions</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Immunology</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Immunology/Rashes%20and%20allergic%20reactions/" class="dropdown-item">Rashes and allergic reactions</a>
+</li>
+            
+<li>
+    <a href="../../Immunology/Transfusion%20reaction/" class="dropdown-item">Transfusion reaction</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Nephrology</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Nephrology/AKI/" class="dropdown-item">AKI</a>
+</li>
+            
+<li>
+    <a href="../../Nephrology/Electrolyte%20abnormalities/" class="dropdown-item">Electrolyte abnormalities</a>
+</li>
+            
+<li>
+    <a href="../../Nephrology/Haematuria/" class="dropdown-item">Haematuria</a>
+</li>
+            
+<li>
+    <a href="../../Nephrology/Hypercalcaemia/" class="dropdown-item">Hypercalcaemia</a>
+</li>
+            
+<li>
+    <a href="../../Nephrology/Hyperkalemia/" class="dropdown-item">Hyperkalemia</a>
+</li>
+            
+<li>
+    <a href="../../Nephrology/Hypermagnesaemia/" class="dropdown-item">Hypermagnesemia</a>
+</li>
+            
+<li>
+    <a href="../../Nephrology/Hypernatremia/" class="dropdown-item">Hypernatremia</a>
+</li>
+            
+<li>
+    <a href="../../Nephrology/Hyperphosphatemia/" class="dropdown-item">Hyperphosphatemia</a>
+</li>
+            
+<li>
+    <a href="../../Nephrology/Hypocalcaemia/" class="dropdown-item">Hypocalecaemia</a>
+</li>
+            
+<li>
+    <a href="../../Nephrology/Hypokalemia/" class="dropdown-item">Hypokalemia</a>
+</li>
+            
+<li>
+    <a href="../../Nephrology/Hypomagnesaemia/" class="dropdown-item">Hypomagnesaemia</a>
+</li>
+            
+<li>
+    <a href="../../Nephrology/Hyponatremia/" class="dropdown-item">Hyponatremia</a>
+</li>
+            
+<li>
+    <a href="../../Nephrology/Hypophosphatemia/" class="dropdown-item">Hypophosphatemia</a>
+</li>
+            
+<li>
+    <a href="../../Nephrology/Iron%20deficiency/" class="dropdown-item">Iron deficiency</a>
+</li>
+            
+<li>
+    <a href="../../Nephrology/Oliguria%20and%20Anuria/" class="dropdown-item">Oliguria</a>
+</li>
+            
+<li>
+    <a href="../../Nephrology/Polyuria/" class="dropdown-item">Polyuria</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Neurology</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Neurology/Altered%20mental%20status/" class="dropdown-item">Altered mental status</a>
+</li>
+            
+<li>
+    <a href="../../Neurology/Eclampsia/" class="dropdown-item">Eclampsia</a>
+</li>
+            
+<li>
+    <a href="../../Neurology/Falls/" class="dropdown-item">Falls</a>
+</li>
+            
+<li>
+    <a href="../../Neurology/Headache/" class="dropdown-item">Headache</a>
+</li>
+            
+<li>
+    <a href="../../Neurology/Seizures/" class="dropdown-item">Seizures</a>
+</li>
+            
+<li>
+    <a href="../../Neurology/Status%20Epilepticus/" class="dropdown-item">Status Epilepticus (Status)</a>
+</li>
+            
+<li>
+    <a href="../../Neurology/Uncontrolled%20pain/" class="dropdown-item">Uncontrolled pain</a>
+</li>
+            
+<li>
+    <a href="../../Neurology/Weakness/" class="dropdown-item">Weakness</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Pulmonology</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Pulmonology/Aspiration/" class="dropdown-item">Aspiration</a>
+</li>
+            
+<li>
+    <a href="../../Pulmonology/Dyspnoea/" class="dropdown-item">Dyspnoea</a>
+</li>
+            
+<li>
+    <a href="../../Pulmonology/Hypoxia/" class="dropdown-item">Hypoxia</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Clinical exams <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Clinical%20exams/Cardiovascular%20exam/" class="dropdown-item">Cardiovascular Exam</a>
+</li>
+                                    
+<li>
+    <a href="../../../Clinical%20exams/Fluid%20Status%20Exam/" class="dropdown-item">Fluid status exam</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Basic skills <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Basic%20skills/Adrenaline/" class="dropdown-item">Adrenaline</a>
+</li>
+                                    
+<li>
+    <a href="../../../Basic%20skills/Approach%20to%20Breathing/" class="dropdown-item">Approach to breathing</a>
+</li>
+                                    
+<li>
+    <a href="../../../Basic%20skills/Approach%20to%20airway/" class="dropdown-item">Airway</a>
+</li>
+                                    
+<li>
+    <a href="../../../Basic%20skills/Basic%20Life%20Support/" class="dropdown-item">Basic Life Support (BLS)</a>
+</li>
+                                    
+<li>
+    <a href="../../../Basic%20skills/Behaviours%20of%20Concern%20charting/" class="dropdown-item">Behaviours of Concern (BOC) chart</a>
+</li>
+                                    
+<li>
+    <a href="../../../Basic%20skills/Cardiopulmonary%20Resuscitation%20%28CPR%29/" class="dropdown-item">Cardiopulmonary Resuscitation (CPR)</a>
+</li>
+                                    
+<li>
+    <a href="../../../Basic%20skills/Charting%20fluids/" class="dropdown-item">Charting fluids</a>
+</li>
+                                    
+<li>
+    <a href="../../../Basic%20skills/Fluid%20review/" class="dropdown-item">Fluid review</a>
+</li>
+                                    
+<li>
+    <a href="../../../Basic%20skills/VTE%20Prophylaxis/" class="dropdown-item">Venous thromboembolism prophylaxis</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Endocrinology%20consults/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Hyperglycaemic%20Hyperosmolar%20state/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#hyperglycaemia" class="nav-link">Hyperglycaemia</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#general-approach" class="nav-link">General approach</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#management-guidelines-aci" class="nav-link">Management guidelines (ACI)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#supplemental-insulin-insulin-in-the-context-of-hyperglycaemia" class="nav-link">Supplemental Insulin (Insulin in the context of hyperglycaemia)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="hyperglycaemia">Hyperglycaemia</h1>
+<h2 id="general-approach">General approach</h2>
+<h2 id="management-guidelines-aci">Management guidelines (ACI)</h2>
+<ol>
+<li>If patient is NBM, vomiting or hyperglycaemic despite correction, consider insulin infusion</li>
+<li>If patient has T1DM and BGL &gt; 15mM, check ketones then follow local guidelines</li>
+<li>Hydration and dietary status: is hyperglycaemia easily explained by dietary indiscretion?</li>
+<li>Ketones: if ketone test is positive consider diabetic ketoacidosis (DKA). Seek expert advice</li>
+<li>Concurrent medications: if on oral corticosteroids or Total Parenteral Nutrition (TPN) seek expert advice</li>
+<li>Missed doses of insulin or oral hypoglycaemic agent</li>
+<li>If not eating normally or markedly labile BGLs consider insulin infusion </li>
+<li>Are alterations to insulin regimen or initiation of insulin required? Consider:<ol>
+<li>Is it likely that insulin will be continued after discharge? If not, is it necessary to start it currently?</li>
+<li>What was the pre-morbid BGL control like? What is current HbA1c?</li>
+<li>Does the patient want long term insulin treatment? If so, what is their preferred regimen?</li>
+<li>Was hyperglycaemia secondary to treated hypoglycaemia?</li>
+</ol>
+</li>
+</ol>
+<p><img alt="" src="../../../Attachments/23432.png" /></p>
+<p><img alt="" src="../../../Attachments/234231.png" /></p>
+<h2 id="supplemental-insulin-insulin-in-the-context-of-hyperglycaemia">Supplemental Insulin (Insulin in the context of hyperglycaemia)</h2>
+<p>Supplemental insulin is given in the form of rapid acting insulin analogues, such as Aspart (NovoRapid), Lispro (Humalog) or Glulisine (Apidra). Follow local guidelines first, however in absence of local guidelines, ACI suggests:</p>
+<p>If Pre-meal BGL is:
+- 10-12mM - give 2U rapid acting insulin
+- 12-18mM - give 4U rapid acting insulin
+- 18-20mM - give 6U rapid acting insulin
+- &gt;=20mM - call clinical review</p>
+<h5 id="initiation-of-insulin-therapy">Initiation of Insulin Therapy</h5>
+<h6 id="type-i-diabetes">Type I Diabetes</h6>
+<ul>
+<li><strong>Contact diabetes registrar for assistance</strong></li>
+</ul>
+<p>Basal bolus regimen:</p>
+<ul>
+<li>0.3-0.4 units/kg/day (Total daily insulin dose)</li>
+<li>1/3 as basal insulin before bed (e.g. lantus (glargine) or levemir (detemir))</li>
+<li>2/3 as rapid acting insulin divided equally before each meal (e.g. lispro (Humalog), aspart (Novorapid), glulisine (Apidra))</li>
+<li>Give supplemental rapid acting insulin as required to correct hyperglycaemia</li>
+<li>Review glycaemic control and adjust insulin doses daily</li>
+</ul>
+<h6 id="type-ii-diabetes">Type II Diabetes</h6>
+<p><strong>A. Oral hypoglycaemic agents</strong>(OHAs) may be able to be continued/titrated in some cases, but consider cessation/dose reduction under the following circumstances:</p>
+<ol>
+<li><strong>Metformin:</strong><ul>
+<li>Cease if eGFR &lt; 30 or if rapidly progressive renal failure or if lactic acidosis.</li>
+<li>Reduce/withhold dose if eGFR 30-60 or if radio-contrast required.</li>
+<li>Metformin can be resumed if renal function improves sufficiently.</li>
+</ul>
+</li>
+<li><strong>Sulphonylureas:</strong><ul>
+<li>Consider ceasing/omitting if poor oral intake/risk of hypoglycaemia</li>
+</ul>
+</li>
+<li><strong>Glitazones:</strong><ul>
+<li>Cease if cardiac failure present</li>
+</ul>
+</li>
+<li><strong>Incretins: DPP4 Inhibitors/GLP1 agonists</strong><ul>
+<li>Cease DPPIV inhibitors/GLP1 analogues if pancreatitis present</li>
+</ul>
+</li>
+<li><strong>SGLT2 Inhibitors:</strong><ul>
+<li>Cease if has renal failure or urogenital infections</li>
+<li>Withhold if acute illness, fasting or preoperative. Consider screen for euglycaemic ketoacidosis</li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../../Attachments/Pasted%20image%2020220517220848.png" />
+<strong>B. Insulin:</strong> often ultimately necessary to achieve satisfactory glycaemic control, especially with:</p>
+<ul>
+<li>Pre-existing poor glycaemic levels (HbA1C &gt; 8% on maximal oral hypoglycaemic agents or &gt; 9% in any case) OR with precipitants e.g. glucocorticoids OR if usual oral hypoglycaemic agents have to be ceased</li>
+<li>Continue metformin if no contraindications. Cease other oral hypoglycaemic agents.</li>
+<li>Commence insulin:  Total daily dose =0.3-0.5 units/kg/day (0.3 units for insulin sensitive, 0.5 units for standard).<ul>
+<li>50% of this to be given as once daily basal insulin (Lantus)</li>
+<li>50% of this to be given as prandial (bolus) insulin e.g. Novorapid, Humalog, Apidra- should be given with meals.</li>
+</ul>
+</li>
+</ul>
+<p>NB:  If insulin is initiated in hospital, please ensure adequate time for discharge planning, either for a change to an appropriate discharge regimen (e.g. a bd premix or basal only regime) or to allow sufficient time for patient to be educated about insulin administration (please contact diabetes educator for education).</p>
+<h6 id="correction-of-hyperglycaemia-with-subcutaneous-insulin">Correction of Hyperglycaemia with Subcutaneous Insulin</h6>
+<p><em>(see also guidance for commencing and Adjusting Basal bolus insulin)</em></p>
+<ul>
+<li>Avoid use of sliding scale insulin as <strong>sole</strong> therapy as it tends to exacerbate metabolic instability</li>
+<li>A change to basal-bolus insulin could be considered in patients with:<ol>
+<li>Pre-existing poor glycaemic control (HbA1C &gt; 8%)</li>
+<li>Risk factors for hyperglycaemia or fluctuations in blood glucose levels (e.g. &gt; 10mg    daily prednisolone or equivalent doses of glucocorticoids; enteric feeds) in patients with known diabetes mellitus</li>
+<li>Patients already on insulin or maximal doses of oral hypoglycaemic agents, particularly with other risk factors / high risk major surgery (e.g. coronary artery bypass surgery)</li>
+</ol>
+</li>
+<li>Supplemental rapid acting insulin <strong>in addition</strong> to usual charted SC insulin <strong>at meal times</strong> may be advisable.  Frequent need for supplemental insulin suggests that usual insulin needs may need to be increased. Supplemental insulin should not be given without concurrent regular review of charted insulin requirements.</li>
+</ul>
+<p><strong>Supplemental Insulin</strong></p>
+<ul>
+<li>Use Insulin Aspart (Novorapid)</li>
+<li>
+<p>Supplemental insulin given in addition to prescribed <strong>premeal</strong> dose only
+<img alt="" src="../../../Attachments/Pasted%20image%2020220517220900.png" /></p>
+</li>
+<li>
+<p>Note:  If patient very sensitive to insulin or problematic hypos, may need to avoid supplemental insulin</p>
+</li>
+</ul>
+<p><strong>Titration:</strong></p>
+<ul>
+<li>Basal Insulin e.g. Lantus, Levemir<ul>
+<li>If fasting and/or mean BGL &gt; 10mmo/l and no hypoglycemia<br />
+    Increase by 10-20% (not more than 5 units)</li>
+<li>If mild hypoglycaemia (BGL 3.1- 4mmol/l) on single occasion<br />
+    Decrease by 10-20%</li>
+<li>if moderate- severe hypoglycaemia (BGL &lt; 3mmol/l or decreased conscious state) or recurrent hypoglycaemia<br />
+    Decrease by 20-30% + endocrine consult</li>
+</ul>
+</li>
+<li>Bolus (prandial) insulin e.g. Novorapid, Humalog, Apidra<ul>
+<li>If the 2hr post-meal BGL exceeds 10 mmol/L (or target range for patient), that individual mealtime bolus should be increased the next day by 2-4 units</li>
+</ul>
+</li>
+<li>If additional corrective doses of insulin are required, avoid excessive and overlapping doses of insulin. For significant hyperglycaemia, e.g. &gt; 20mmol/l, a corrective dose of 0.1 units/kg of rapid acting insulin analogue could be considered (minimise night time doses because of risk of hypoglycaemia- not more than 0.025-0.05units/kg).  If significant hyperglycaemia persists, consider intravenous variable dose insulin-glucose infusion</li>
+<li>Re-check BGL 2 hr after administration of extra insulin in order to ensure it has not been over- or under- effective</li>
+<li>Avoid giving extra insulin too frequently<br />
+    Give rapid-acting insulin analogues rather than regular human short acting insulin (such as Actrapid) given the more rapid onset of action and the reduced potential for overlapping of doses</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2022 Weber Liu BSc MD MSc</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
